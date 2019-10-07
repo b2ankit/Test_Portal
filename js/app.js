@@ -43,11 +43,16 @@ function showScores() {
 
 // create questions
 var questions = [
-    new Question("Which one is not an object oriented programming language?", ["Java", "C#","C++", "C"], "C"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "XML"], "CSS"),
-    new Question("There are ____ main components of object oriented programming.", ["1", "6","2", "4"], "4"),
-    new Question("Which language is used for web apps?", ["PHP", "Python", "Javascript", "All"], "All"),
-    new Question("MVC is a ____.", ["Language", "Library", "Framework", "All"], "Framework")
+    new Question("Who is the “Father of Computer” ?", ["Barbara Liskov", "Larry Page","Elon Musk", "Charles Babbage"], "Charles Babbage"),
+    new Question("Which city is also called as Pink City in India ?", ["Kolkata", "Bihar", "Jaipur", "Delhi"], "Jaipur"),
+    new Question("When we can cross the road ?", ["Red Signal", "Yellow Signal","Green Signal", "Black Signal"], "Green Signal"),
+    new Question("Which of the following fruits has no seed ?", ["Watermelon", "Guava", "Orange ", "Banana"], "Banana"),
+    new Question("Chandigarh is famous for ________ ?", ["Rivers", "Mountains", "Rose Garden", "All of the above"], "Rose Garden"),
+    new Question("Which of the following is not a blood group ?",["A","B","O","K"],"K"),
+    new Question("Which state is famous for Beaches in India ?",["Mumbai","Goa","Adaman","shillong"],"Goa"),
+    new Question("65×65= _____ ?",["4225","4125","4025","4325"],"4225"),
+    new Question("Who is the richest person in India ?",["Lakshmi Mittal","Ratan Tata","Mukesh Ambani","Anil Ambani"],"Mukesh Ambani"),
+    new Question("Choose the correct answer, Khasmir is a: ______ ?",["Village","Union Territory","Metropolitan","None of these"],"Union Territory")
 ];
 
 // create quiz
