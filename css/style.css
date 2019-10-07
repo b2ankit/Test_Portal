@@ -57,3 +57,95 @@ body{
 #btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus{
     outline:0;
 }
+
+@media only screen and (max-width: 750px) {
+
+    .grid{
+        width: 400px;
+        height: 650px;
+        margin: 10vh auto;
+    }
+    .grid h1{
+        font-size: 40px;
+    }
+    .grid p{
+        font-size: 45px;
+        text-align: center;
+    }
+    #btn0, #btn1, #btn2, #btn3{
+        margin: 10px 60px;
+    }
+   
+  }
+
+  @media only screen and (max-width: 550px) {
+
+    .grid{
+        width: 300px;
+        height: 680px;
+        margin: 10vh auto;
+    }
+    .grid h1{
+        font-size: 35px;
+    }
+    .grid p{
+        text-align: center;
+    }
+    #btn0, #btn1, #btn2, #btn3{
+        margin: 10px 25px;
+    }
+    .grid #question{
+        font-size: 25px;
+        
+    }
+   
+  }
+
+  @media only screen and (max-width: 450px) {
+
+    .grid{
+        width: 250px;
+        height: 550px;
+        margin: 10vh auto;
+    }
+    .grid h1{
+        font-size: 30px;
+    }
+    .grid p{
+        text-align: center;
+    }
+    #btn0, #btn1, #btn2, #btn3{
+        margin: 10px 0px;
+    }
+    .grid #question{
+        font-size: 20px;
+        
+    }
+    #btn0, #btn1, #btn2, #btn3{
+        width: 180px;
+    }
+   
+  }
+
+  @media only screen and (max-width: 380px) {
+
+    .grid{
+        width: 200px;
+        height: 550px;
+        margin: 10vh auto;
+    }
+    .grid h1{
+        font-size: 30px;
+    }
+    .grid p{
+        text-align: center;
+    }
+    #btn0, #btn1, #btn2, #btn3{
+        margin: 10px 0px;
+    }
+    .grid #question{
+        font-size: 20px;
+        
+    }
+   
+  }
